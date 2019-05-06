@@ -1,0 +1,260 @@
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR'); */
+
+body{
+	background-color: #ccc;
+	margin: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.container{
+	width: 960px;
+	margin: auto;
+	background-color: #fff;
+}
+h1 {
+	font-size: 42px;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	width: 860px;
+}
+h2{
+	text-align: center;
+	margin: 60px 20px;
+	color: #720;
+	font-size: 30px;
+	border-bottom: solid 3px #720;
+}
+.topo, .topo2{
+	background-color: #48C;
+	padding: 20px 0;
+}
+.topo img{
+	height: 48px;	
+}
+.topo2 h1{
+	width: 100%;	
+}
+.rodape{
+	background-color: #333;
+	padding: 60px 0;
+	text-align: center;
+	color: #eee;
+}
+.flex{
+	display: flex;	
+}
+.largura{
+	width: 960px;
+	margin: auto;
+}
+.logo, .entrar{
+	width: 50px;	
+}
+.menu{
+	text-align: center;	
+}
+.menu a{
+	text-decoration: none;
+	margin: 10px 25px;	
+}
+.menu button{
+	font-size: 28px;
+	margin-top: 10px;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+.principal{
+	padding-bottom: 60px;
+}
+.imagem{
+	display: block;
+	margin: auto;
+}
+.tabela{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+.tabela th{
+	background-color: #000;
+	color: #fff;
+	padding: 10px
+}
+.tabela tr:nth-child(even){
+	background-color: #ffc;
+}
+.tabela tr:nth-child(odd){
+	background-color: #cff;
+}
+.tabela td{
+	padding: 10px;	
+}
+.mini{
+	width: 75px;
+}
+.row{
+	display: flex;
+	flex-flow: row wrap;
+	padding: 0 10px;
+}
+.produto{
+	width: 215px;
+	border: solid 1px #000;
+	margin: 10px;
+	box-sizing: border-box;
+	
+	text-align: center;
+}
+.produto h3{
+	margin: 0;
+	text-align: center;
+	padding: 5px 0;
+	background-color: #0CF;
+}
+.produto p{
+	padding: 10px;
+	font-size: 12px;
+	text-align: center;
+}
+.medio{
+	width: 80%;
+	margin-top: 20px;	
+}
+.produto a{
+	color: #000;
+	text-decoration: none;
+}
+.produto a:hover{
+	text-decoration: underline;
+}
+.topo_login{
+	background-color: #080;
+	padding: 30px 0;
+}
+.topo_login h1{
+	width: 100%;
+}
+.login{
+	width: 400px;
+	margin: 100px auto;
+	background-color: #666;
+	box-sizing: border box;
+	padding: 40px 20px;
+	border: solid 2px #000;
+}
+.login input{
+	display: block;
+	width: 98%;
+	font-size: 20px;
+	padding: 5px;
+	margin: 20px 0;
+}
+#logar{
+	width: 50%;
+	margin: auto;
+	padding: 10px 0;
+	background-color: #09f;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+}
+#erro, #msg{
+	z-index: 100;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #FFF; 
+	font-weight: 800; 
+	width: 550px;  
+	padding: 50px 15px; 
+	background-color: #F00; 
+	border: solid 4px #000;
+	border-radius: 12px; 
+	display: none; 
+	font-size: 25px;
+	text-align: center; 		
+}
+#msg{
+	background-color: #0c0 !important;
+}
+.adm {
+	width: 500px;
+	margin: auto;
+	padding: 50px 0;
+	text-align: center;
+}
+.adm img{
+	width: 128px;	
+}
+.adm a{
+	color: #000;
+	text-decoration: none;
+}
+.adm a:hover{
+	text-decoration: underline;	
+}
+.atualizar{
+	margin: auto;
+	padding: 50px 0;
+	width: 50%	
+}
+.atualizar *{
+	width: 100%;
+	display: block;
+	margin: 10px auto;
+	resize: none;
+	font-size: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding: 5px;
+}
+.botao {
+	width: 100px;
+	padding: 5px;
+	margin-top: 20px;
+}
+#root, #comum{
+	display: inline !important;
+	width: auto	!important;
+	margin: 0;
+	margin-right: 5px;
+	padding: 0;
+}
+.radio{
+	font-size: 14px !important;	
+}
+.avatar {
+	display: block;
+	margin: auto;	
+	width: 200px;
+}
+.mudar{
+	display: block;
+	text-align: center;
+}
+.botao3{
+	font-size: 22px;
+	margin-top: 20px;
+	padding: 5px 15px;
+}
+.titulo{
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
